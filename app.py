@@ -69,7 +69,7 @@ block = gr.Blocks()
 
 with block:
     gr.Markdown(
-        """<h1><center>Neurax-Chat</center></h1>
+        """<h1><center>Neuraux-Chat</center></h1>
     """
     )
     chatbot = gr.Chatbot()
@@ -83,6 +83,6 @@ with block:
     # Update submit.click() to include the temperature_slider
     submit.click(clone, inputs=[message, state, temperature_slider], outputs=[chatbot, state])
 
-block.launch(debug=True)
+block.launch(debug=True, share= True)
 
 
