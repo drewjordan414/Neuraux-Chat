@@ -1,4 +1,4 @@
-# Neurax-Chat
+# Neuraux-Chat
 # Comp150-Final
  Neurax-Chat is a chatbot application powered by OpenAI's GPT-3 model. It provides a simple web-based interface that allows users to interact with the AI model in a conversational manner. This porject was built around OpenAI's API and as a final project for the COMP150 at Loyola University Chicago
 
