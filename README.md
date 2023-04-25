@@ -12,7 +12,6 @@
 
 To set up the application, you'll need to install the required libraries:
 
-```bash
 pip install openai gradio
 
 You'll also need to create a config.ini file containing your OpenAI API key:
